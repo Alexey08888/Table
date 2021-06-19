@@ -2,30 +2,49 @@ body
 
 {
   text-align: center;
-}#table {
+}
+
+
+.price
+
+{
+    font-weight:bolder;
+    font-size: 45px;
+    background: inherit;   
+}
+
+tr:nth-child(even)
+
+{
+    background-color: rgb(75, 74, 74);
+
+    height: 60px;
+}
+
+#table {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
   
   border-collapse: collapse;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   border: 1px solid #000;
   display: block;
 
 }
 
 
- #table  :first-child 
+ /* #table  :first-child 
 
 {
 
     
     border-top-left-radius: 20px;
 
-} 
+}  */
 
 
-#table  :last-child 
+/* #table  :last-child 
 
 {
 
@@ -33,36 +52,84 @@ body
     border-top-right-radius: 20px;
 
 } 
+ */
 
 
 
-.th {
-  background-color: rgb(199, 199, 199);
-  border-collapse: collapse;
-  font-size: 30px;
-  color: white;
-  border-radius: 30%;
-}
 
-#table > thead tr :first-child
+thead tr :first-child
 {
     background-color:rgb(121, 135, 172);
 }
 
-#table > thead tr :nth-child(2)
+thead tr :nth-child(2)
 {
     background-color:rgb(79, 98, 141);
 }
-#table > thead tr :nth-child(3)
+thead tr :nth-child(3)
 {
     background-color:rgb(47, 65, 115);
 }
-#table > thead tr :nth-child(4)
+thead tr :nth-child(4)
 {
     background-color:rgb(22, 41, 84);
 }
-#table > thead tr :nth-child(5)
+thead tr :nth-child(5)
 {
     background-color:rgb(7, 21, 58);
 }
 
+
+#table span
+{
+    background-color: transparent;
+}
+
+#tr1 > :nth-child(odd)
+
+{
+    background-color: rgb(219, 219, 219);
+    height: 60px;
+}
+
+#tr1 > :nth-child(even)
+
+{
+    background-color: rgb(231, 231, 231);
+    height: 60px;
+}
+
+#tr2> :nth-child(odd)
+
+{
+    background-color: rgb(236, 236, 236);
+    height: 60px;
+}
+
+#tr2 > :nth-child(even)
+
+{
+    background-color: rgb(243, 243, 243);
+    height: 60px;
+}
+
+#table thead
+{
+    color: white;
+    font-size: 30px;
+}
+
+
+#tr3 > :nth-child(odd)
+
+{
+    background-color: rgb(219, 219, 219);
+    height: 90px;
+}
+
+#tr3 > :nth-child(even)
+
+{
+    background-color: rgb(231, 231, 231);
+    height: 90px;
+}
