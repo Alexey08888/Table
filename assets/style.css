@@ -41,7 +41,7 @@ tr:nth-child(even) {
 #table tfoot  :first-child 
 
 {
-    border-bottom-left-radius: 20px ;
+    border-radius: 20px ;
 }  
 
 #table tfoot :last-child 
