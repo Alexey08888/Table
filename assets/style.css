@@ -38,10 +38,9 @@ tr:nth-child(even) {
     border-top-right-radius: 20px;
 } 
 
-#table tfoot  :first-child 
-
+#table tfoot td :first
 {
-    border-radius: 20px ;
+    border-bottom-left-radius: 20px ;
 }  
 
 #table tfoot :last-child 
