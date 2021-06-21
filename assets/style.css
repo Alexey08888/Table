@@ -15,11 +15,10 @@ tr:nth-child(even) {
 }
 
 #table {
-    margin-top: 150px;
+    margin-top: 156px;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-
   border-collapse: collapse;
   border-radius: 20px;
   border: 1px solid #000;
