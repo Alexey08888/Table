@@ -1,135 +1,138 @@
-body
-
-{
+body {
   text-align: center;
 }
 
-
-.price
-
-{
-    font-weight:bolder;
-    font-size: 45px;
-    background: inherit;   
+.price {
+  font-weight: bolder;
+  font-size: 45px;
+  background: inherit;
 }
 
-tr:nth-child(even)
+tr:nth-child(even) {
+  background-color: rgb(75, 74, 74);
 
-{
-    background-color: rgb(75, 74, 74);
-
-    height: 60px;
+  height: 60px;
 }
 
 #table {
+    margin-top: 150px;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  
+
   border-collapse: collapse;
-  /* border-radius: 20px; */
+  border-radius: 20px;
   border: 1px solid #000;
   display: block;
-
 }
 
-
- /* #table  :first-child 
+#table thead  :first-child 
 
 {
-
-    
     border-top-left-radius: 20px;
+}  
 
-}  */
+#table thead :last-child 
 
-
-/* #table  :last-child 
-
-{
-
-    
+{ 
     border-top-right-radius: 20px;
-
 } 
- */
 
+#table tfoot  :first-child 
 
-
-
-thead tr :first-child
 {
-    background-color:rgb(121, 135, 172);
+    border-bottom-left-radius: 20px ;
+}  
+
+#table tfoot :last-child 
+
+{ 
+    border-bottom-right-radius: 20px;
+} 
+ 
+ 
+
+thead tr :first-child {
+  background-color: rgb(121, 135, 172);
 }
 
-thead tr :nth-child(2)
-{
-    background-color:rgb(79, 98, 141);
+thead tr :nth-child(2) {
+  background-color: rgb(79, 98, 141);
 }
-thead tr :nth-child(3)
-{
-    background-color:rgb(47, 65, 115);
+thead tr :nth-child(3) {
+  background-color: rgb(47, 65, 115);
 }
-thead tr :nth-child(4)
-{
-    background-color:rgb(22, 41, 84);
+thead tr :nth-child(4) {
+  background-color: rgb(22, 41, 84);
 }
-thead tr :nth-child(5)
-{
-    background-color:rgb(7, 21, 58);
+thead tr :nth-child(5) {
+  background-color: rgb(7, 21, 58);
 }
 
-
-#table span
-{
-    background-color: transparent;
+#table span {
+  background-color: transparent;
 }
 
-#tr1 > :nth-child(odd)
-
-{
-    background-color: rgb(219, 219, 219);
-    height: 60px;
+#tr1 > :nth-child(odd) {
+  background-color: rgb(219, 219, 219);
+  height: 60px;
 }
 
-#tr1 > :nth-child(even)
-
-{
-    background-color: rgb(231, 231, 231);
-    height: 60px;
+#tr1 > :nth-child(even) {
+  background-color: rgb(231, 231, 231);
+  height: 60px;
 }
 
-#tr2> :nth-child(odd)
-
-{
-    background-color: rgb(236, 236, 236);
-    height: 60px;
+#tr2 > :nth-child(odd) {
+  background-color: rgb(236, 236, 236);
+  height: 60px;
 }
 
-#tr2 > :nth-child(even)
-
-{
-    background-color: rgb(243, 243, 243);
-    height: 60px;
+#tr2 > :nth-child(even) {
+  background-color: rgb(243, 243, 243);
+  height: 60px;
 }
 
-#table thead
-{
-    color: white;
-    font-size: 30px;
+#table thead {
+  color: white;
+  font-size: 30px;
+}
+
+#tr3 > :nth-child(odd) {
+  background-color: rgb(219, 219, 219);
+  height: 90px;
+}
+
+#tr3 > :nth-child(even) {
+  background-color: rgb(231, 231, 231);
+  height: 90px;
+}
+
+.button {
+  display: inline-block;
+  background-color: rgb(211, 211, 211);
+  border: 1px solid rgb(129, 129, 129);
+  width: 120px;
+  height: 40px;
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-size: 18px;
+  
 }
 
 
-#tr3 > :nth-child(odd)
 
-{
-    background-color: rgb(219, 219, 219);
-    height: 90px;
+
+.button a {
+  display: inline-block;
+  margin: 10px 10px 10px;
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+  
+  
 }
 
-#tr3 > :nth-child(even)
-
+.button:hover 
 {
-    background-color: rgb(231, 231, 231);
-    height: 90px;
+    background-color: rgb(173, 132, 132);
 }
